@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohideen Afzal S | Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-gray-900/90 backdrop-blur border-b border-gray-800 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-blue-400">Mohideen Afzal S</a>
+            <div class="hidden md:flex space-x-8 text-gray-300 font-medium items-center">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#education" class="hover:text-blue-400 transition">Education</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+                
+                <!-- Resume Download Button in Nav -->
+                <a href="resume.pdf" download="Mohideen_Afzal_Resume.pdf" class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-lg font-medium transition flex items-center gap-2">
+                    <i class="fa-solid fa-download"></i> Resume
+                </a>
+
+                <!-- Social Icons in Nav -->
+                <div class="flex items-center space-x-4 border-l border-gray-700 pl-6">
+                    <a href="https://github.com/Afzal1450" target="_blank" class="text-gray-400 hover:text-white transition text-lg" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/mohideen-afzal-s" target="_blank" class="text-gray-400 hover:text-blue-400 transition text-lg" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-gray-300 focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <!-- Mobile Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 px-6 py-4 space-y-3">
+            <a href="#about" class="block hover:text-blue-400">About</a>
+            <a href="#education" class="block hover:text-blue-400">Education</a>
+            <a href="#skills" class="block hover:text-blue-400">Skills</a>
+            <a href="#projects" class="block hover:text-blue-400">Projects</a>
+            <a href="#contact" class="block hover:text-blue-400">Contact</a>
+            <a href="resume.pdf" download="Mohideen_Afzal_Resume.pdf" class="block text-blue-400 font-semibold pt-2 border-t border-gray-700">
+                <i class="fa-solid fa-download mr-1"></i> Download Resume
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero / About Section -->
+    <section id="about" class="pt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col items-start justify-center min-h-screen">
+        <span class="text-blue-400 font-semibold tracking-wide uppercase mb-2">Final-Year IT Undergraduate</span>
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Mohideen Afzal S</h1>
+        <h2 class="text-2xl md:text-3xl text-gray-400 mb-6">Aspiring IT Professional | Machine Learning & Data-Driven Solutions</h2>
+        <p class="text-gray-300 text-lg max-w-2xl mb-8 leading-relaxed">
+             Hands-on experience in Machine Learning, DBMS, and data visualization. Skilled in building ML-based predictive models and interactive dashboards, with a strong foundation in Python, Java, and SQL. Seeking an entry-level role to apply problem-solving skills toward delivering impactful data solutions.
+        </p>
+        <div class="flex flex-wrap gap-4">
+            <a href="resume.pdf" download="Mohideen_Afzal_Resume.pdf" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition flex items-center gap-2">
+                <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+            </a>
+            <a href="https://github.com/Afzal1450" target="_blank" class="border border-gray-700 hover:border-gray-500 bg-gray-800 text-gray-200 px-6 py-3 rounded-lg font-medium transition flex items-center gap-2">
+                <i class="fa-brands fa-github text-xl"></i> GitHub Profile
+            </a>
+            <a href="https://linkedin.com/in/mohideen-afzal-s" target="_blank" class="border border-gray-700 hover:border-blue-500 bg-gray-800 text-gray-200 px-6 py-3 rounded-lg font-medium transition flex items-center gap-2">
+                <i class="fa-brands fa-linkedin text-xl text-blue-400"></i> LinkedIn Profile
+            </a>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 px-6 max-w-6xl mx-auto border-t border-gray-800">
+        <h2 class="text-3xl font-bold mb-10 text-center"><span class="border-b-4 border-blue-500 pb-1">Education</span></h2>
+        <div class="space-y-6">
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-400">B.Tech, Information Technology</h3>
+                    <p class="text-gray-300">Francis Xavier Engineering College, Tirunelveli</p>
+                </div>
+                <div class="mt-2 md:mt-0 text-left md:text-right">
+                    <span class="bg-blue-900 text-blue-200 text-sm px-3 py-1 rounded-full font-semibold">CGPA: 8.44 / 10</span>
+                    <p class="text-gray-400 text-sm mt-1">2023 - 2027</p>
+                </div>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div>
+                    <h3 class="text-xl font-bold text-gray-200">Higher Secondary Education (CBSE)</h3>
+                    <p class="text-gray-400">Vedic Vidyashram CBSE School, Tirunelveli</p>
+                </div>
+                <div class="mt-2 md:mt-0 text-left md:text-right">
+                    <span class="text-gray-300 font-medium">Percentage: 74%</span>
+                    <p class="text-gray-400 text-sm mt-1">2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 max-w-6xl mx-auto border-t border-gray-800">
+        <h2 class="text-3xl font-bold mb-10 text-center"><span class="border-b-4 border-blue-500 pb-1">Technical Skills</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                <h3 class="text-lg font-bold text-blue-400 mb-3"><i class="fa-solid fa-code mr-2"></i>Languages</h3>
+                <p class="text-gray-300">Python, Java, C, SQL, HTML, CSS</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                <h3 class="text-lg font-bold text-blue-400 mb-3"><i class="fa-solid fa-brain mr-2"></i>Machine Learning</h3>
+                <p class="text-gray-300">Model Building, Training & Prediction, Data Preprocessing, Feature Engineering</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                <h3 class="text-lg font-bold text-blue-400 mb-3"><i class="fa-solid fa-wrench mr-2"></i>Tools & Databases</h3>
+                <p class="text-gray-300">Power BI, MySQL, DBMS, Linux</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 max-w-6xl mx-auto border-t border-gray-800">
+        <h2 class="text-3xl font-bold mb-10 text-center"><span class="border-b-4 border-blue-500 pb-1">Featured Projects</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Soil Prediction Project -->
+            <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-blue-400">Soil Prediction for Medicinal Plants</h3>
+                        <a href="https://github.com/Afzal1450" target="_blank" class="text-gray-400 hover:text-white text-xl" title="View Source Code">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4">Supervised Machine Learning Model</p>
+                    <ul class="text-gray-300 space-y-2 list-disc list-inside mb-6">
+                        <li>Engineered key features including soil pH, moisture, and nutrient composition to train classification models.</li>
+                        <li>Recommended optimal soil types tailored specifically for high-yield medicinal plant growth.</li>
+                        <li>Validated predictions against empirical compatibility metrics for consistent reliability.</li>
+                    </ul>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-700">
+                    <span class="bg-gray-700 text-xs px-3 py-1 rounded-full text-blue-300">Python</span>
+                    <span class="bg-gray-700 text-xs px-3 py-1 rounded-full text-blue-300">Scikit-Learn</span>
+                    <span class="bg-gray-700 text-xs px-3 py-1 rounded-full text-blue-300">Pandas</span>
+                </div>
+            </div>
+
+            <!-- Leaf Recognition Project -->
+            <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-blue-400">Herbal Leaf Recognition</h3>
+                        <a href="https://github.com/Afzal1450" target="_blank" class="text-gray-400 hover:text-white text-xl" title="View Source Code">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4">Image Classification System</p>
+                    <ul class="text-gray-300 space-y-2 list-disc list-inside mb-6">
+                        <li>Applied noise removal, resizing, and feature extraction to identify medicinal species accurately.</li>
+                        <li>Linked classification predictions to a reference database of medicinal uses.</li>
+                        <li>Tuned hyperparameters to eliminate misclassification across visually similar plant species.</li>
+                    </ul>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-700">
+                    <span class="bg-gray-700 text-xs px-3 py-1 rounded-full text-blue-300">Machine Learning</span>
+                    <span class="bg-gray-700 text-xs px-3 py-1 rounded-full text-blue-300">Image Processing</span>
+                    <span class="bg-gray-700 text-xs px-3 py-1 rounded-full text-blue-300">Python</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience & Certifications -->
+    <section class="py-20 px-6 max-w-6xl mx-auto border-t border-gray-800">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-2xl font-bold mb-6 text-blue-400">Internship</h3>
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                    <h4 class="text-lg font-bold">Data Analytics Intern</h4>
+                    <p class="text-sm text-gray-400">Infosmite | June 2025</p>
+                    <p class="text-gray-300 mt-3">Designed interactive Power BI dashboards to analyze complex datasets, delivering actionable insights through dynamic charts and user-friendly reporting.</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold mb-6 text-blue-400">Certifications</h3>
+                <div class="space-y-4">
+                    <div class="bg-gray-800 p-4 rounded-xl border border-gray-700">
+                        <p class="font-semibold text-gray-200">The Joy of Computing Using Python</p>
+                        <p class="text-sm text-gray-400">NPTEL (IIT Madras) — Elite (64%)</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-xl border border-gray-700">
+                        <p class="font-semibold text-gray-200">Industry 4.0 & Industrial IoT</p>
+                        <p class="text-sm text-gray-400">NPTEL (IIT Kharagpur) — Elite (73%)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 max-w-6xl mx-auto border-t border-gray-800 text-center">
+        <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
+        <p class="text-gray-400 mb-8 max-w-xl mx-auto">Open to entry-level roles in Software Development, Data Analytics, and Machine Learning.</p>
+        
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-6 text-lg mb-8">
+            <a href="mailto:mohideenafzal.ug.23.it@francisxavier.ac.in" class="flex items-center space-x-2 text-gray-300 hover:text-blue-400 transition">
+                <i class="fa-solid fa-envelope text-blue-400"></i>
+                <span>mohideenafzal.ug.23.it@francisxavier.ac.in</span>
+            </a>
+            <a href="tel:+916382378863" class="flex items-center space-x-2 text-gray-300 hover:text-blue-400 transition">
+                <i class="fa-solid fa-phone text-blue-400"></i>
+                <span>+91 6382378863</span>
+            </a>
+        </div>
+
+        <div class="flex justify-center items-center space-x-6">
+            <a href="resume.pdf" download="Mohideen_Afzal_Resume.pdf" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg text-sm font-medium transition flex items-center gap-2">
+                <i class="fa-solid fa-download"></i> Download Resume
+            </a>
+            <a href="https://github.com/Afzal1450" target="_blank" class="bg-gray-800 p-3 rounded-full border border-gray-700 hover:border-blue-400 text-gray-300 hover:text-white transition">
+                <i class="fa-brands fa-github text-xl"></i>
+            </a>
+            <a href="https://linkedin.com/in/mohideen-afzal-s" target="_blank" class="bg-gray-800 p-3 rounded-full border border-gray-700 hover:border-blue-400 text-gray-300 hover:text-blue-400 transition">
+                <i class="fa-brands fa-linkedin text-xl"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer class="py-6 border-t border-gray-800 text-center text-sm text-gray-500">
+        © 2026 Mohideen Afzal S. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
